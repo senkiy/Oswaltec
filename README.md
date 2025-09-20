@@ -1,73 +1,181 @@
-# Welcome to your Lovable project
+# 🏗️ Oswaltec - Website Corporativo
 
-## Project info
+<div align="center">
+  <img src="https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.5.3-3178C6?logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-5.4.1-646CFF?logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-3.4.11-06B6D4?logo=tailwindcss" alt="Tailwind" />
+</div>
 
-**URL**: https://lovable.dev/projects/56e68d17-51b2-4918-baf0-560eb9b88758
+## 📋 Sobre o Projeto
 
-## How can I edit this code?
+Website institucional da **Oswaltec**, empresa especializada em serviços industriais com foco em:
+- 🛡️ **Segurança**
+- 🎯 **Qualidade** 
+- ⚡ **Produção**
+- 🔧 **Manutenção e Serviços**
 
-There are several ways of editing your application.
+### 🌟 Principais Características
 
-**Use Lovable**
+- **Design Responsivo**: Interface otimizada para desktop, tablet e mobile
+- **Performance Otimizada**: Construído com Vite para carregamento rápido
+- **Componentes Reutilizáveis**: Arquitetura baseada em componentes com shadcn/ui
+- **Experiência do Usuário**: Animações suaves e navegação intuitiva
+- **SEO Friendly**: Estrutura otimizada para mecanismos de busca
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/56e68d17-51b2-4918-baf0-560eb9b88758) and start prompting.
+## 🚀 Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
+- **React 18.3.1** - Biblioteca para construção da interface
+- **TypeScript 5.5.3** - Tipagem estática para JavaScript
+- **Vite 5.4.1** - Build tool e servidor de desenvolvimento
+- **React Router DOM 6.26.2** - Roteamento do lado do cliente
 
-**Use your preferred IDE**
+### UI & Estilização
+- **Tailwind CSS 3.4.11** - Framework CSS utility-first
+- **shadcn/ui** - Biblioteca de componentes acessíveis
+- **Radix UI** - Componentes primitivos headless
+- **Lucide React** - Biblioteca de ícones
+- **next-themes** - Gerenciamento de temas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Funcionalidades
+- **React Hook Form** - Gerenciamento de formulários
+- **TanStack Query** - Gerenciamento de estado do servidor
+- **Zod** - Validação de esquemas
+- **date-fns** - Manipulação de datas
+- **Recharts** - Gráficos e visualizações
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Instalação e Configuração
 
-Follow these steps:
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Passo a passo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Clone o repositório**
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd oswaltec_web
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Instale as dependências**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3. **Execute o servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+4. **Acesse a aplicação**
+   - Abra seu navegador e vá para `http://localhost:5173`
+
+## 📜 Scripts Disponíveis
+
+```json
+{
+  "dev": "vite",                    // Servidor de desenvolvimento
+  "build": "vite build",            // Build para produção
+  "build:dev": "vite build --mode development", // Build para desenvolvimento
+  "lint": "eslint .",               // Verificação de código
+  "preview": "vite preview"          // Preview do build
+}
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes base (shadcn/ui)
+│   ├── About.tsx       # Seção sobre a empresa
+│   ├── Contact.tsx     # Seção de contato
+│   ├── Footer.tsx      # Rodapé
+│   ├── Hero.tsx        # Seção hero/banner principal
+│   ├── Portfolio.tsx   # Portfólio de projetos
+│   └── Services.tsx    # Seção de serviços
+├── pages/              # Páginas da aplicação
+│   ├── Index.tsx       # Página principal
+│   └── NotFound.tsx    # Página 404
+├── lib/                # Utilitários e configurações
+├── hooks/              # Hooks customizados
+└── App.tsx            # Componente raiz
+```
 
-**Use GitHub Codespaces**
+## 🎨 Seções do Website
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🏠 Hero Section
+- Banner principal com call-to-action
+- Navegação suave para seção de contato
+- Design impactante com overlay sobre imagem
 
-## What technologies are used for this project?
+### ℹ️ Sobre a Empresa
+- História e valores da Oswaltec
+- Estatísticas de projetos e experiência
+- Missão e compromissos
 
-This project is built with:
+### 🛠️ Serviços
+1. **Infraestrutura e Edificações**
+   - Construção Civil
+   - Pintura Predial
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. **Construção, Manutenção e Montagem**
+   - Soldagem e Caldeiraria
+   - Funilaria Industrial
+   - Montagem de Andaimes
 
-## How can I deploy this project?
+3. **Suporte**
+   - Isolamento Térmico
+   - Limpeza Técnica e Industrial
 
-Simply open [Lovable](https://lovable.dev/projects/56e68d17-51b2-4918-baf0-560eb9b88758) and click on Share -> Publish.
+4. **Tratamento e Revestimento**
+   - Jateamento Abrasivo
+   - Pintura Industrial
 
-## Can I connect a custom domain to my Lovable project?
+### 📞 Contato
+- Informações de contato completas
+- Integração com WhatsApp
+- Call-to-action para orçamento gratuito
 
-Yes, you can!
+## 🚀 Deploy
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Build para Produção
+```bash
+npm run build
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Preview da Build
+```bash
+npm run preview
+```
+
+## 📱 Contato da Empresa
+
+- **Telefone/WhatsApp**: (71) 99108-6042
+- **E-mail**: oswaltecservicos@gmail.com
+- **Localização**: Dias D'Ávila - BA
+- **Horário**: Segunda a Sexta, 8h às 18h | Emergências 24h
+
+## 🤝 Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+© 2024 Oswaltec. Todos os direitos reservados.
+
+---
+
+<div align="center">
+  <p>Desenvolvido com ❤️ para a <strong>Oswaltec</strong></p>
+</div>
